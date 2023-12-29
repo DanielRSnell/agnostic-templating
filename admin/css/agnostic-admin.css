@@ -1,0 +1,45 @@
+.ace_editor {
+  border: 1px solid #000;
+  margin: auto;
+  width: 100%;
+}
+
+.scrollmargin {
+  height: 80px;
+  text-align: center;
+}
+
+#agnostic-data b,
+.agnostic_shortcode b {
+  display: inline-block;
+  padding: 2px 5px;
+  background-color: #e5e5e5;
+}
+
+#agnostic-data textarea {
+  width: 100%;
+}
+
+div#normal-sortables.meta-box-sortables.ui-sortable {
+  min-height: 0 !important;
+}
+
+[v-cloak] {
+  display: none;
+}
+#editor-tabs button {
+  background-color: #f1f1f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: background-color 0.3s;
+}
+
+#editor-tabs button:hover {
+  background-color: #ddd;
+}
+
+#editor-tabs button.active {
+  background-color: #ccc;
+}

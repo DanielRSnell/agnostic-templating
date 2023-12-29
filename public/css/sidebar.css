@@ -1,0 +1,3 @@
+.list .element--agnostic_template::before {
+  content: "\f475";
+}
